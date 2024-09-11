@@ -396,6 +396,7 @@ header {
   text-decoration: none;
   font-size: 25px;
   padding: 0px 20px;
+
 }
 
 .navbar-links {
@@ -2218,6 +2219,10 @@ ul.list li:last-child {
     width: 20%;
     position: relative;
     padding: 0px;
+    text-align: center;
+    background: #ffc10747;
+    padding-top: 15px;
+    border-radius: 10px;
 }
 .recent-products-data a.button {
     position: absolute;
@@ -2261,6 +2266,11 @@ ul.list li:last-child {
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 20px;
+    text-align: center;
+/*     background-color: #ffc10726;
+ */    border-radius: 10px;
+    padding-top: 20px;
+
 }
 .recent-products-data:hover img {
     opacity: .3;
@@ -5755,4 +5765,6 @@ ul.social-icon i,.team-working:hover,.team-working:before,.about-gallery-img fig
 .healthy-product a,.slider-categorie .owl-nav i,.food-categorie,.food-categorie:before,ul.image-gallery li figure:before,
 .team-working,.pets h3 a,.tick:before {
     transition: .4s ease-in-out;
+    border-radius: 10px;
+
 }

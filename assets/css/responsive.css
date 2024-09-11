@@ -2643,6 +2643,11 @@
 	}
 	.recent-products-data {
     width: 100%;
+    text-align: center;
+    background-color: #ffc10726;
+    border-radius: 10px;
+    padding-top: 20px;
+
   }
 	.team-working {
     padding: 70px 45px;
